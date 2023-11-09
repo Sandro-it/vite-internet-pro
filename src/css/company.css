@@ -2,14 +2,14 @@
   background-color: #fafafa;
   width: 1440px;
   height: 650px;
-  padding: 172px 130px;
+  padding: 172px 0;
   margin: auto;
 }
-.container {
+/* .container {
   background-color: inherit;
   max-width: 1180px;
   height: 306px;
-}
+} */
 .title {
   color: #000;
   text-align: center;
