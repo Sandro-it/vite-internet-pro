@@ -1,0 +1,55 @@
+.header {
+    padding-top: 50px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.header-navi {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    color: #5F0A61;
+    font-family: Reem Kufi;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    text-transform: uppercase;
+    /* margin-right: 145px; */
+}
+
+.header-menu-list {
+    display: flex;
+    width: 562px;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 5px;
+}
+
+.heder-menu-item {}
+
+.header-menu-link {
+    color: #2E363E;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.header-address {}
+
+.header-address-item {}
+
+.header-address-link {
+    color: #5F0A61;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 152%;
+}
