@@ -33,8 +33,6 @@
     margin-top: 5px;
 }
 
-.heder-menu-item {}
-
 .header-menu-link {
     color: #2E363E;
     font-size: 18px;
@@ -42,9 +40,9 @@
     line-height: 150%;
 }
 
-.header-address {}
-
-.header-address-item {}
+.current:hover {
+    color: #5F0A61;
+}
 
 .header-address-link {
     color: #5F0A61;
@@ -52,4 +50,10 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 152%;
+}
+
+.header-address-link:hover {
+    border-radius: 5px;
+    border: 1px solid #5F0A61;
+    background: #FFF;
 }
