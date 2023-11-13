@@ -7,6 +7,8 @@
   align-items: center;
   gap: 45px;
   padding: 79px 132px 79px 131px;
+  color: #2E363E;
+
 }
 
 .offers-title {
@@ -80,6 +82,8 @@
   letter-spacing: 0em;
   text-align: left;
   margin-bottom: 15px;
+  color: #434B53;
+  ;
 }
 .offers-parag-text {
   margin-bottom: 17px;
