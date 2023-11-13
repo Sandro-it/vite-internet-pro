@@ -1,0 +1,122 @@
+.offers-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 45px;
+  padding: 79px 132px 79px 131px;
+}
+
+.offers-title {
+  font-family: inherit;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.offers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 41px;
+}
+
+.offers-item {
+  padding: 80px 46px 80px 40px;
+  background-color: #fafafa;
+  box-shadow: 2px 4px 15px 0px #0000000d;
+}
+
+.offers-item {
+  display: flex;
+  flex-direction: row;
+  gap: 52.17px;
+}
+
+.offers-choice {
+  display: flex;
+  flex-direction: row;
+  gap: 59.7px;
+  margin-bottom: 13px;
+}
+
+.offers-plan {
+  font-family: inherit;
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.offers-price {
+  font-family: inherit;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 1.08;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.offers-parag {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 13px;
+}
+
+.offers-parag-speed {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.12;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.offers-parag-text {
+  margin-bottom: 17px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.37;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.secondpage-offers {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1.11;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.offers-item-blocktwo {
+  max-width: 676px;
+  display: flex;
+  flex-direction: column;
+}
+
+.offers-link {
+  color: #5f0a61;
+  align-self: flex-end;
+  position: relative;
+}
+
+.offers-link::before {
+  content: '';
+  background-color: #5f0a61;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 23px;
+  right: 0%;
+}
