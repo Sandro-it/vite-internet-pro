@@ -5,11 +5,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 68px;
+    padding-bottom: 68px;
 }
 
 .modal {
-    position: absolute;
-    width: 650px;
+    position: relative;
+    max-width: 650px;
+    height: 100%;
+    overflow-y: auto;
     background: #FFF;
     padding: 76px 67px 75px 50px;
 }
