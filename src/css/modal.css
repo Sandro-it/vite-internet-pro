@@ -1,0 +1,126 @@
+.backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    position: absolute;
+    width: 650px;
+    background: #FFF;
+    padding: 76px 67px 75px 50px;
+}
+
+.modal-subtitle {
+    text-align: justify;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-left: 155px;
+    margin-bottom: 20px;
+}
+
+.modal-subtitle::before {
+    position: absolute;
+    content: '';
+    left: 52px;
+    top: 89px;
+    height: 2px;
+    width: 143px;
+    background: #D8D8D8;
+    border-radius: 2px;
+}
+
+.modal-title {
+
+    font-family: inherit;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+
+.title-accent {
+    color: #5F0A61;
+}
+
+.modal-descr {
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    margin-bottom: 30px;
+}
+
+.modal-input {
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    width: 100%;
+    padding: 17px 21px 18px; 
+    margin-bottom: 23px;
+    background-color: transparent;
+    outline: transparent;
+    text-align: justify;
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+}
+
+.modal-textarea {
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    width: 100%;
+    min-height: 149px;
+    padding: 22px 21px;
+    margin-bottom: 33px;
+    background-color: transparent;
+    outline: transparent;
+    resize: none;
+    text-align: justify;
+    font-family: inherit;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+}
+
+.modal-input::placeholder, .modal-textarea::placeholder {
+    
+    color: #000;
+    text-align: justify;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.55;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.modal-button {
+    display: block;
+    min-width: 181px;
+    background: #5F0A61;
+    border-radius: 5px;
+    border-style: none;
+    cursor: pointer;
+    padding: 12px 24px 17px;
+    margin: 0 auto;
+    color: #FFF;
+    text-align: center;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
