@@ -80,6 +80,7 @@
     font-weight: 400;
     line-height: 1.55;
     letter-spacing: 0.03em;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea {
@@ -98,6 +99,12 @@
     font-weight: 400;
     line-height: 1.55;
     letter-spacing: 0.03em;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus, .modal-textarea:focus {
+    outline: none;
+    border-color: #5F0A61;
 }
 
 .modal-input::placeholder, .modal-textarea::placeholder {
@@ -110,6 +117,11 @@
     line-height: 1.55;
     letter-spacing: 0.03em;
     text-transform: capitalize;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-input:focus::placeholder, .modal-textarea:focus::placeholder {
+    color: #5F0A61;
 }
 
 .modal-button {
